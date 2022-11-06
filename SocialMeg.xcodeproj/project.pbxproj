@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E586383B2918107400498377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586383A2918107400498377 /* AppDelegate.swift */; };
+		E586383D2918107400498377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586383C2918107400498377 /* SceneDelegate.swift */; };
+		E586383F2918107400498377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586383E2918107400498377 /* ViewController.swift */; };
+		E58638422918107400498377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58638402918107400498377 /* Main.storyboard */; };
+		E58638442918107500498377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58638432918107500498377 /* Assets.xcassets */; };
+		E58638472918107500498377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58638452918107500498377 /* LaunchScreen.storyboard */; };
+		E58638522918107500498377 /* SocialMegTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58638512918107500498377 /* SocialMegTests.swift */; };
+		E586385C2918107500498377 /* SocialMegUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586385B2918107500498377 /* SocialMegUITests.swift */; };
+		E586385E2918107500498377 /* SocialMegUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586385D2918107500498377 /* SocialMegUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E586384E2918107500498377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E586382F2918107400498377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58638362918107400498377;
+			remoteInfo = SocialMeg;
+		};
+		E58638582918107500498377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E586382F2918107400498377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58638362918107400498377;
+			remoteInfo = SocialMeg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E58638372918107400498377 /* SocialMeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586383A2918107400498377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E586383C2918107400498377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E586383E2918107400498377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E58638412918107400498377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58638432918107500498377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E58638462918107500498377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E58638482918107500498377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E586384D2918107500498377 /* SocialMegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58638512918107500498377 /* SocialMegTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMegTests.swift; sourceTree = "<group>"; };
+		E58638572918107500498377 /* SocialMegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586385B2918107500498377 /* SocialMegUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMegUITests.swift; sourceTree = "<group>"; };
+		E586385D2918107500498377 /* SocialMegUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMegUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58638342918107400498377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586384A2918107500498377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58638542918107500498377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E586382E2918107400498377 = {
+			isa = PBXGroup;
+			children = (
+				E58638392918107400498377 /* SocialMeg */,
+				E58638502918107500498377 /* SocialMegTests */,
+				E586385A2918107500498377 /* SocialMegUITests */,
+				E58638382918107400498377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58638382918107400498377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58638372918107400498377 /* SocialMeg.app */,
+				E586384D2918107500498377 /* SocialMegTests.xctest */,
+				E58638572918107500498377 /* SocialMegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58638392918107400498377 /* SocialMeg */ = {
+			isa = PBXGroup;
+			children = (
+				E586383A2918107400498377 /* AppDelegate.swift */,
+				E586383C2918107400498377 /* SceneDelegate.swift */,
+				E586383E2918107400498377 /* ViewController.swift */,
+				E58638402918107400498377 /* Main.storyboard */,
+				E58638432918107500498377 /* Assets.xcassets */,
+				E58638452918107500498377 /* LaunchScreen.storyboard */,
+				E58638482918107500498377 /* Info.plist */,
+			);
+			path = SocialMeg;
+			sourceTree = "<group>";
+		};
+		E58638502918107500498377 /* SocialMegTests */ = {
+			isa = PBXGroup;
+			children = (
+				E58638512918107500498377 /* SocialMegTests.swift */,
+			);
+			path = SocialMegTests;
+			sourceTree = "<group>";
+		};
+		E586385A2918107500498377 /* SocialMegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E586385B2918107500498377 /* SocialMegUITests.swift */,
+				E586385D2918107500498377 /* SocialMegUITestsLaunchTests.swift */,
+			);
+			path = SocialMegUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58638362918107400498377 /* SocialMeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58638612918107500498377 /* Build configuration list for PBXNativeTarget "SocialMeg" */;
+			buildPhases = (
+				E58638332918107400498377 /* Sources */,
+				E58638342918107400498377 /* Frameworks */,
+				E58638352918107400498377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialMeg;
+			productName = SocialMeg;
+			productReference = E58638372918107400498377 /* SocialMeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E586384C2918107500498377 /* SocialMegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58638642918107500498377 /* Build configuration list for PBXNativeTarget "SocialMegTests" */;
+			buildPhases = (
+				E58638492918107500498377 /* Sources */,
+				E586384A2918107500498377 /* Frameworks */,
+				E586384B2918107500498377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E586384F2918107500498377 /* PBXTargetDependency */,
+			);
+			name = SocialMegTests;
+			productName = SocialMegTests;
+			productReference = E586384D2918107500498377 /* SocialMegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E58638562918107500498377 /* SocialMegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58638672918107500498377 /* Build configuration list for PBXNativeTarget "SocialMegUITests" */;
+			buildPhases = (
+				E58638532918107500498377 /* Sources */,
+				E58638542918107500498377 /* Frameworks */,
+				E58638552918107500498377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58638592918107500498377 /* PBXTargetDependency */,
+			);
+			name = SocialMegUITests;
+			productName = SocialMegUITests;
+			productReference = E58638572918107500498377 /* SocialMegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E586382F2918107400498377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E58638362918107400498377 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E586384C2918107500498377 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E58638362918107400498377;
+					};
+					E58638562918107500498377 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E58638362918107400498377;
+					};
+				};
+			};
+			buildConfigurationList = E58638322918107400498377 /* Build configuration list for PBXProject "SocialMeg" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E586382E2918107400498377;
+			productRefGroup = E58638382918107400498377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58638362918107400498377 /* SocialMeg */,
+				E586384C2918107500498377 /* SocialMegTests */,
+				E58638562918107500498377 /* SocialMegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58638352918107400498377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58638472918107500498377 /* LaunchScreen.storyboard in Resources */,
+				E58638442918107500498377 /* Assets.xcassets in Resources */,
+				E58638422918107400498377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586384B2918107500498377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58638552918107500498377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58638332918107400498377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586383F2918107400498377 /* ViewController.swift in Sources */,
+				E586383B2918107400498377 /* AppDelegate.swift in Sources */,
+				E586383D2918107400498377 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58638492918107500498377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58638522918107500498377 /* SocialMegTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58638532918107500498377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E586385C2918107500498377 /* SocialMegUITests.swift in Sources */,
+				E586385E2918107500498377 /* SocialMegUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E586384F2918107500498377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58638362918107400498377 /* SocialMeg */;
+			targetProxy = E586384E2918107500498377 /* PBXContainerItemProxy */;
+		};
+		E58638592918107500498377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58638362918107400498377 /* SocialMeg */;
+			targetProxy = E58638582918107500498377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E58638402918107400498377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58638412918107400498377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E58638452918107500498377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58638462918107500498377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E586385F2918107500498377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E58638602918107500498377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58638622918107500498377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT294HX576;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialMeg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.rmenezes.SocialMeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58638632918107500498377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT294HX576;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialMeg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.rmenezes.SocialMeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E58638652918107500498377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT294HX576;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.rmenezes.SocialMegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMeg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialMeg";
+			};
+			name = Debug;
+		};
+		E58638662918107500498377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT294HX576;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.rmenezes.SocialMegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMeg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialMeg";
+			};
+			name = Release;
+		};
+		E58638682918107500498377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT294HX576;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.rmenezes.SocialMegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocialMeg;
+			};
+			name = Debug;
+		};
+		E58638692918107500498377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT294HX576;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.rmenezes.SocialMegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocialMeg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58638322918107400498377 /* Build configuration list for PBXProject "SocialMeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586385F2918107500498377 /* Debug */,
+				E58638602918107500498377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58638612918107500498377 /* Build configuration list for PBXNativeTarget "SocialMeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58638622918107500498377 /* Debug */,
+				E58638632918107500498377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58638642918107500498377 /* Build configuration list for PBXNativeTarget "SocialMegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58638652918107500498377 /* Debug */,
+				E58638662918107500498377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58638672918107500498377 /* Build configuration list for PBXNativeTarget "SocialMegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58638682918107500498377 /* Debug */,
+				E58638692918107500498377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E586382F2918107400498377 /* Project object */;
+}
