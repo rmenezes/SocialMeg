@@ -1,0 +1,3 @@
+protocol Coordinating {
+    func start()
+}
